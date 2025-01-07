@@ -1,0 +1,233 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3 {
+  margin-bottom: 1rem;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+}
+
+.site-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: #333;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #555;
+}
+.nav-button {
+  background: none;
+  border: 2px solid #333; /* Dark border for contrast */
+  color: #333; /* Default text color */
+  padding: 0.6rem 1.2rem; /* Add more padding for a "pill" look */
+  font-size: 1rem; /* Modern font size */
+  font-weight: bold; /* Make the text stand out */
+  border-radius: 25px; /* Rounded edges */
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth transitions */
+}
+
+.nav-button:hover {
+  background-color: #333; /* Dark background on hover */
+  color: #fff; /* White text on hover */
+  border-color: #333; /* Match border with background */
+  transform: translateY(-2px); /* Slight lift on hover */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+}
+
+.nav-button:focus {
+  outline: none; /* Remove default focus outline */
+  box-shadow: 0 0 0 3px rgba(51, 51, 51, 0.4); /* Add a focus ring */
+}
+
+.nav-button.active {
+  background-color: #333; /* Highlight the active button */
+  color: #fff; /* White text for contrast */
+  border-color: #333;
+}
+/* About Section */
+.about {
+  padding: 3rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  max-width: 1000px;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.about-content {
+  max-width: 600px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.social-icons a {
+  font-size: 1.5rem;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #555;
+}
+
+/* Projects Section */
+.projects {
+  padding: 3rem 2rem;
+  background-color: #fff;
+  text-align: center;
+  height: 100vh;
+}
+
+.projects h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.project-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.project-card {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.project-card h3 {
+  margin-top: 1rem;
+}
+
+.project-card p {
+  color: #555;
+}
+/* Resume Section */
+.resume {
+  padding: 6rem 2rem;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.resume h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.resume p {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.resume-button {
+  background-color: #333;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.resume-button:hover {
+  background-color: #555;
+}
+
+/* Resume Highlights */
+.resume-highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.resume-card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.resume-card h3 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.resume-card ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin: 0;
+}
+
+.resume-card ul li {
+  margin-bottom: 0.5rem;
+  color: #555;
+}
