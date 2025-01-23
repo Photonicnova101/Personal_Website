@@ -14,9 +14,8 @@ const About = () => {
               I specialize in creating solutions through data driven insights.
             </p>
             <div className="social-icons">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
+              <a href="https://github.com/Photonicnova101" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+              <a href="https://www.linkedin.com/in/sam-pautrat-a69b521aa" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
               <a href="mailto:sampautrat101@gmail.com"><FaEnvelope /></a>
             </div>
           </div>
