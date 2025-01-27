@@ -1,6 +1,6 @@
 import React from 'react';
 import profilePic from '../assets/linkedin_pfp.jpeg';
-import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 const About = () => {
     return (
