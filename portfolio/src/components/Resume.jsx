@@ -6,7 +6,7 @@ const Resume = () => {
       <h2>My Resume</h2>
       <p>Download a full copy of my resume or explore key highlights below.</p>
       <a
-        href="/path-to-resume.pdf" /* Replace with the actual path to your PDF */
+        href="/Sam_Pautrat_Resume.docx.pdf" /* Replace with the actual path to your PDF */
         target="_blank"
         rel="noopener noreferrer"
         className="resume-button"
