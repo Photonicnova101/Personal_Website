@@ -10,14 +10,14 @@ const Projects = () => {
         url: "https://trading-backtesting.netlify.app/"
       },
       { name: "Language Processing Algorithm", 
-        description: "Redesigned the user flow for a pet service app.", 
+        description: "Utilized Natural Language Processing (NLP) techniques including tokenization, frequency analysis, and KL Divergence to quantify and visualize linguistic differences in food representations across regions and genders. Employed the Fighting Words method to identify the most distinctive food terms associated with specific groups (North vs. South, Male vs. Female). Developed visualizations, including heatmaps and bar charts, to highlight key findings and cultural insights.", 
         image: project2,
-        url: "placeholder.com"
+        url: "/Language_processing_algo_pdf.pdf"
       },
       { name: "Heart Attack Data Analysis", 
         description: "data analysis project on a gold star kaggle dataset for Cornell University's INFO 2950 class", 
         image: project3,
-        url: "placeholder.com"
+        url: "/INFO-2950-Heart-Attack-Project-pdf.pdf"
       },
     ];
     const handleCardClick = (url) => {
