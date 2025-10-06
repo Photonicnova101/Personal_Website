@@ -4,7 +4,7 @@ import project2 from '../assets/nlp_img.png';
 import project3 from '../assets/placeholder.png';
 import project4 from '../assets/video_c_p_img.png';
 import project5 from '../assets/autopattern_trader_img.png';
-import project6 from '../assets/Heart-Attack-Project-pdf.pdf';
+import project6 from '../assets/heart_attack_analysis.png';
 const Projects = () => {
     const projectList = [
       { name: "DeepFake Identity Fraud Detection", 
