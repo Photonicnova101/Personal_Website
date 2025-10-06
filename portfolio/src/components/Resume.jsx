@@ -17,19 +17,35 @@ const Resume = () => {
       <div className="resume-highlights">
         <div className="resume-card">
           <h3>Education</h3>
+          <p><strong>GPA:</strong>3.7</p>
           <p><strong>Cornell University</strong></p>
-          <p>B.A. in Information Science<br />Interactive Technologies/Data Science Concentration<br />Expected: May 2026</p>
+          <p>B.A. in Information Science<br />User Experience/Data Science Double Concentration<br />Expected: December 2026</p>
         </div>
         <div className="resume-card">
           <h3>Experience</h3>
-          <p><strong>Grand Corner Realty</strong> – Data Analyst Intern</p>
-          <p>June 2022 –August 2022</p>
+          <p><strong>Grand Corner Realty</strong> – Software Engineering Intern/Data Analyst Intern</p>
+          <p>June 2022 –August 2023</p>
           <ul>
-            <li>Utilized advanced Excel data entry and analysis skills to efficiently process and organize over hundreds of property listings, presenting machine learning produced metrics bi-weekly</li>
-            <li>Applied machine learning algorithms to detect high-potential investments, contributing to a projected profit increase of 20% through data-driven insights</li>
+            <li>Built ML models in Python to identify high-potential real estate deals, projected 20% profit increase.</li>
+            <li>Processed and analyzed hundreds of listings using Excel and SQL to surface key trends and metrics.</li>
+            <li>Automated data pipelines with AWS (EC2, Glue, Athena) and Apache Kafka to streamline listing analysis.</li>
+            <li>Delivered bi-weekly reports with visualizations to support strategic investment decisions.</li>
+          </ul>
+          <p><strong>RippleMatch</strong> – Software Engineering Intern</p>
+          <p>December 2023 – March 2024</p>
+          <ul>
+            <li>Built and deployed a job description similarity algorithm that outperformed peer models by 13%.</li>
+            <li>Deployed application to AWS with CI/CD pipelines for automated testing and uptime.</li>
+            <li>Implemented system monitoring and failover to minimize downtime and improve reliability.</li>
+          </ul>
+          <p><strong>Human Voice Over</strong> – Software Engineering Intern</p>
+          <p>June 2025-August 2025</p>
+          <ul>
+            <li>Built and deployed Backend Infrastructure to automate database optimal file compression and database migration to be sent to business partners in line with business workflow (AWS,N8N,Airtable)</li>
             
           </ul>
         </div>
+        
         <div className="resume-card">
           <h3>Skills</h3>
           <ul>
