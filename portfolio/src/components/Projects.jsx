@@ -20,7 +20,7 @@ const Projects = () => {
       { name: "Language Processing Algorithm", 
         description: "Utilized Natural Language Processing (NLP) techniques including tokenization, frequency analysis, and KL Divergence to quantify and visualize linguistic differences in food representations across regions and genders. Employed the Fighting Words method to identify the most distinctive food terms associated with specific groups (North vs. South, Male vs. Female). Developed visualizations, including heatmaps and bar charts, to highlight key findings and cultural insights.", 
         image: project2,
-        url: "/assets/Language_processing_algo_pdf.pdf"
+        url: "/Language_processing_algo_pdf.pdf"
       },
       { name: "Video Compression Automation Pipeline", 
         description: "An enterprise-grade, serverless video compression pipeline designed for dubbing studios and content creators who need to process large video files efficiently. The system automatically detects new uploads, compresses videos to under 5GB while maintaining quality, and tracks all processing metadata.", 
@@ -35,7 +35,7 @@ const Projects = () => {
       { name: "Heart Attack Data Analysis", 
         description: "data analysis project on a gold star kaggle dataset for Cornell University's INFO 2950 class", 
         image: project6,
-        url: "/assets/Heart-Attack-Project-pdf.pdf"
+        url: "/Heart-Attack-Project-pdf.pdf"
       },
     ];
     const handleCardClick = (url) => {
