@@ -1,13 +1,28 @@
 import React from 'react';
-import project1 from '../assets/placeholder.png';
-import project2 from '../assets/placeholder.png';
+import project1 from '../assets/deepfake_img.jpeg';
+import project2 from '../assets/nlp_img.png';
 import project3 from '../assets/placeholder.png';
 const Projects = () => {
     const projectList = [
-      { name: "Stock_trading_backtesting_react_page", 
-        description: "Users will be able to select a certain trading strategy and generate real api data on the desired stock name. Users will be able to generate statistics of the results of a strategy users will be able to choose from and see heatmaps as well as other visual analytics", 
+      { name: "DeepFake Identity Fraud Detection", 
+        description: "AI-powered system for detecting manipulated faces and synthetic media using deep learning. Provides real-time analysis with confidence scoring and visual explanations.",
         image: project1,
-        url: "https://trading-backtesting.netlify.app/"
+        url: "https://github.com/Photonicnova101/Cybersecurity-Deepfake-Identity-Fraud-Detection"
+      },
+      { name: "Personal Knowledge Assistant - RAG Document QA System", 
+        description: "An AI-powered document querying system that enables semantic search across your personal documents using RAG (Retrieval-Augmented Generation) architecture.", 
+        image: project3,
+        url: "https://github.com/Photonicnova101/RAG-Document-QA-system"
+      },
+      { name: "Language Processing Algorithm", 
+        description: "Utilized Natural Language Processing (NLP) techniques including tokenization, frequency analysis, and KL Divergence to quantify and visualize linguistic differences in food representations across regions and genders. Employed the Fighting Words method to identify the most distinctive food terms associated with specific groups (North vs. South, Male vs. Female). Developed visualizations, including heatmaps and bar charts, to highlight key findings and cultural insights.", 
+        image: project2,
+        url: "/Language_processing_algo_pdf.pdf"
+      },
+      { name: "Language Processing Algorithm", 
+        description: "Utilized Natural Language Processing (NLP) techniques including tokenization, frequency analysis, and KL Divergence to quantify and visualize linguistic differences in food representations across regions and genders. Employed the Fighting Words method to identify the most distinctive food terms associated with specific groups (North vs. South, Male vs. Female). Developed visualizations, including heatmaps and bar charts, to highlight key findings and cultural insights.", 
+        image: project2,
+        url: "/Language_processing_algo_pdf.pdf"
       },
       { name: "Language Processing Algorithm", 
         description: "Utilized Natural Language Processing (NLP) techniques including tokenization, frequency analysis, and KL Divergence to quantify and visualize linguistic differences in food representations across regions and genders. Employed the Fighting Words method to identify the most distinctive food terms associated with specific groups (North vs. South, Male vs. Female). Developed visualizations, including heatmaps and bar charts, to highlight key findings and cultural insights.", 
